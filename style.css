@@ -9,8 +9,8 @@ body {
 html {
     background-color: rgba(163, 163, 163, 1);
     font-family: 'Roboto Mono', sans-serif;
-    height : 100vh;
-    overflow : hidden;
+    height: 100vh;
+    overflow: hidden;
 }
 
 
@@ -29,10 +29,9 @@ a {
     font-size: 35px;
 }
 
-a:hover {
+.header-container a:hover {
     text-decoration: underline;
 }
-
 
 
 .containerBody {
@@ -50,7 +49,7 @@ a:hover {
 
 .mainText {
     font-size: 70px;
-    margin-left : 100px;
+    margin-left: 100px;
 }
 
 .mainText .internal-container {
@@ -61,21 +60,21 @@ a:hover {
 
 .star-container {
     position: absolute;
-    transform : translateX(-240px) translateY(100px);
+    transform: translateX(-240px) translateY(100px);
 }
 
 .star-container img {
-    width : 1200px;
+    width: 1200px;
 
 }
 
 .text {
-    position : relative;
+    position: relative;
     z-index: 10;
     font-size: 40px;
-    font-weight : bold;
+    font-weight: bold;
     color: #A6A6A6;
-    transform : translateY(100px) translateX(30px);
+    transform: translateY(100px) translateX(30px);
 }
 
 #star {
@@ -106,7 +105,7 @@ a:hover {
     position: absolute;
     border-top: 7px solid black;
     border-right: 7px solid black;
-    transform : translateX(100px);
+    transform: translateX(100px);
 }
 
 .blue-block-text {
@@ -117,12 +116,80 @@ a:hover {
     border-bottom: 7px solid black;
     border-left: 7px solid black;
     transform: translateY(-200px);
+}
+
+.contacts {
+    padding-left: 110px;
+    padding-top: 130px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 44px;
+
+}
+
+.cont-body {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-left: 100px;
+
+}
+
+.design-text {
+    position: relative;
+    z-index: 10;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 37px;
+}
+
+.list-text {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.blue-block-d-proj {
+    background: #4350C6;
+    width: 23%;
+    height: 13%;
+    border-radius: 20px;
+    position: absolute;
+
+}
+
+.about-me-container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-bottom: 200px;
+    padding-top: 100px;
 
 
+}
 
 
+.about-me {
+    padding: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align : center;
+}
+#hello{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 40px;
+    text-align : center;
 
+}
 
+.blue-text{
+    color: #4350C6;
+}
 
-
+.photo-about img {
+    margin : 0 auto;
+    width : 450px;
+    display : block;
+    border: 7px solid black;
 }
