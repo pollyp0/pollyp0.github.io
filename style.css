@@ -193,3 +193,8 @@ a {
     display : block;
     border: 7px solid black;
 }
+
+.photos{
+    padding-left: 50px;
+    padding-top: 50px;
+}
